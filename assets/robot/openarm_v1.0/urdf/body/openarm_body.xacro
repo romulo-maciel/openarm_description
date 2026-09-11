@@ -47,4 +47,9 @@ limitations under the License.
     kinematics_link="${kinematics_link}" />
     </xacro:macro>
 
+  <xacro:include filename="$(find realsense2_description)/urdf/_d435.urdf.xacro" />
+  <xacro:sensor_d435 parent="openarm_body_link0" name="camera">
+    <origin xyz="0.05 0 0.61" rpy="0 ${pi/4} 0"/>
+  </xacro:sensor_d435>
+
 </robot>

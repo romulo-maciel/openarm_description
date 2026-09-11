@@ -63,6 +63,7 @@ limitations under the License.
 
     <xacro:include filename="$(find openarm_description)/assets/robot/openarm_v1.0/urdf/ee/ee_dispatcher.xacro" />
     <xacro:include filename="$(find openarm_description)/assets/robot/openarm_v1.0/urdf/ee/openarm_ee_macro.xacro" />
+    <xacro:include filename="$(find openarm_description)/assets/robot/openarm_v1.0/urdf/sensors/sensors.xacro" />
 
     <xacro:include filename="$(find openarm_description)/assets/robot/openarm_v1.0/urdf/ros2_control/openarm.ros2_control.xacro" />
     <xacro:include filename="$(find openarm_description)/assets/robot/openarm_v1.0/urdf/ros2_control/openarm.bimanual.ros2_control.xacro" />

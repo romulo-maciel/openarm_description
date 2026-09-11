@@ -119,5 +119,14 @@ limitations under the License.
       <xacro:openarm-limits name="joint7" config="${joint_limits}" />
     </joint>
 
+    <xacro:simple_camera
+      prefix="${prefix}_wrist_logitech"
+      parent="${prefix}hand"
+      xyz="0.055 0 0.015"
+      rpy="0 ${-(2*pi)/18} 0"
+      width="0.026"
+      height="0.063"
+      depth="0.015"/>
+
   </xacro:macro>
 </robot>

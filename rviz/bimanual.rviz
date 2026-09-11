@@ -6,7 +6,7 @@ Panels:
       Expanded:
         - /Global Options1
       Splitter Ratio: 0.5
-    Tree Height: 139
+    Tree Height: 248
   - Class: rviz_common/Views
     Expanded:
       - /Current View1
@@ -51,6 +51,11 @@ Visualization Manager:
         Expand Link Details: false
         Expand Tree: false
         Link Tree Style: Links in Alphabetic Order
+        openarm_body_link0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
         openarm_left_hand:
           Alpha: 1
           Show Axes: false
@@ -105,10 +110,6 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
-        openarm_left_link8:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
         openarm_left_right_finger:
           Alpha: 1
           Show Axes: false
@@ -168,16 +169,7 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
-        openarm_right_link8:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
         openarm_right_right_finger:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        v10_body_link0:
           Alpha: 1
           Show Axes: false
           Show Trail: false
@@ -195,7 +187,9 @@ Visualization Manager:
       Value: true
       Visual Enabled: true
     - Class: rviz_default_plugins/TF
-      Enabled: true
+      Enabled: false
+      Filter (blacklist): ""
+      Filter (whitelist): ""
       Frame Timeout: 15
       Frames:
         All Enabled: true
@@ -223,7 +217,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz_default_plugins/Orbit
-      Distance: 5
+      Distance: 2.598062753677368
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -241,17 +235,17 @@ Visualization Manager:
       Pitch: 0.33000001311302185
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 5.5
+      Yaw: 6.265010833740234
     Saved: ~
 Window Geometry:
   Displays:
     collapsed: false
-  Height: 826
+  Height: 920
   Hide Left Dock: false
   Hide Right Dock: false
-  QMainWindow State: 000000ff00000000fd0000000100000000000001da000002a8fc0200000002fb000000100044006900730070006c0061007900730100000069000001790000017800fffffffb0000000a0056006900650077007301000001ee000001230000012300ffffff000002ca000002a800000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
+  QMainWindow State: 000000ff00000000fd0000000100000000000001da00000332fc0200000002fb000000100044006900730070006c0061007900730100000043000001ca000000d400fffffffb0000000a00560069006500770073010000021300000162000000b500ffffff000001d40000033200000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
   Views:
     collapsed: false
-  Width: 1200
-  X: 42
-  Y: 64
+  Width: 948
+  X: 964
+  Y: 436
