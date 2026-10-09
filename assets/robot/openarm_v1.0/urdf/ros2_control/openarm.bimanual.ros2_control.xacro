@@ -25,7 +25,8 @@ limitations under the License.
              ee_type:=^|parallel_link
              left_arm_prefix:=^|left_
              right_arm_prefix:=^|right_
-             can_fd:=^|true">
+             can_fd:=^|true
+             gravity_comp_gain:=^|1.0">
 
     <!-- Left Arm Hardware Interface -->
     <ros2_control name="openarm_left_hardware_interface" type="system">
@@ -42,6 +43,7 @@ limitations under the License.
             <param name="arm_prefix">${left_arm_prefix}</param>
             <param name="hand">${hand}</param>
             <param name="can_fd">${can_fd}</param>
+            <param name="gravity_comp_gain">${gravity_comp_gain}</param>
             <param name="ee_type">${ee_type}</param>
             <param name="kp1">${control_gains['joint1']['kp']}</param>
             <param name="kp2">${control_gains['joint2']['kp']}</param>
@@ -112,6 +114,7 @@ limitations under the License.
             <param name="arm_prefix">${right_arm_prefix}</param>
             <param name="hand">${hand}</param>
             <param name="can_fd">${can_fd}</param>
+            <param name="gravity_comp_gain">${gravity_comp_gain}</param>
             <param name="ee_type">${ee_type}</param>
             <param name="kp1">${control_gains['joint1']['kp']}</param>
             <param name="kp2">${control_gains['joint2']['kp']}</param>

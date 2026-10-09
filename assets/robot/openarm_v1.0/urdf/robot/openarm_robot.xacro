@@ -52,6 +52,7 @@ limitations under the License.
             left_arm_prefix:='left_'
             right_arm_prefix:='right_'
             can_fd:='true'
+            gravity_comp_gain:='1.0'
             "
             >
 
